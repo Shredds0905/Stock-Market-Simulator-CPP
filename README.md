@@ -1,8 +1,23 @@
-# 📈 Stock Market Simulator (C++)
+📈 Stock Market Simulator (C++)
 
 A console-based Stock Market Simulator developed in **C++** using **Object-Oriented Programming (OOP)** concepts.
 
-## 🚀 Features
+⚠️IMPORTANT:  
+This project is written for **Turbo C++ (DOS-based compiler)** and **will NOT run correctly on modern compilers like GCC, MinGW, or MSVC** without modification.
+
+❗ Why Turbo C++?
+
+This project uses Turbo C++ specific libraries and functions such as:
+
+- `<iostream.h>`
+- `<conio.h>`
+- `clrscr()`
+- `getch()`
+- `putch()`
+- `randomize()`
+
+These are **not supported in modern C++ compilers**.
+🚀 Features
 - User Signup & Login (Password masked with `*`)
 - Regular & Premium Users
 - Buy and Sell Stocks
@@ -13,13 +28,14 @@ A console-based Stock Market Simulator developed in **C++** using **Object-Orien
 - Market View (Guest & User)
 - CLI Menu System
 
-## 🛠 Technologies Used
+🛠 Technologies Used
 - C++ (OOP)
+- Turbo C++
 - File Handling
 - Dynamic Memory Allocation
 - Console Programming
 
-## 🧠 OOP Concepts Implemented
+🧠 OOP Concepts Implemented
 - Classes & Objects
 - Encapsulation
 - Inheritance
@@ -30,7 +46,19 @@ A console-based Stock Market Simulator developed in **C++** using **Object-Orien
 - Friend Class
 - Dynamic Memory Allocation
 
-## ▶ How to Run
-1. Compile using:
-   ```bash
-   g++ main.cpp -o stock_simulator
+▶ How to Run
+Using Turbo C++ (Recommended)
+
+1. Install **Turbo C++**
+2. Open Turbo C++
+3. Load the `.cpp` file
+4. Compile and run using:
+
+📌 Author
+
+*Shraddha Golhar*
+B.Tech CSE | VIT Pune  
+
+⭐ Note
+
+This project is created for **academic and learning purposes** and demonstrates OOP concepts using legacy C++ compilers.
